@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This is a first effort 
+title: Short Stories on AI 
 ---
 
 I realized that creating this blog was far easier than meaningfully organizing the things that I wanted to say in it in the first place. So until I can put my thoughts in order for anything bigger, here is a small list of interesting short stories around the subject of AI.
