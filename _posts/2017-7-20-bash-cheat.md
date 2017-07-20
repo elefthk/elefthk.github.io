@@ -12,7 +12,7 @@ Instead, here I have gathered some more complex commands that I have found usefu
   <col width="33%">
   <tr>
     <td><code>convert dragon.jpg -resize 50% half_dragon.jpg</code></td>
-    <td>  decrease image size by half and <a href="http://www.imagemagick.org/Usage/resize/">more</a></td>
+    <td>  decrease image size by half and <a href="http://www.imagemagick.org/Usage/resize/">more</a><br></td>
   </tr>
   <tr>
     <td><code>ffmpeg -i video.mp4 audio.mp3</code></td>
