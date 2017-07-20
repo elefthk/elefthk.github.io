@@ -10,7 +10,7 @@ Instead, here I have gathered some more complex commands that I have found usefu
 <table>
   <tr>
     <td><code>convert dragon.jpg -resize 50% half_dragon.jpg</code></td>
-    <td>Contact</td>
+    <td>  decrease image size by half and [more](http://www.imagemagick.org/Usage/resize/)</td>
   </tr>
   <tr>
     <td>Alfreds Futterkiste</td>
