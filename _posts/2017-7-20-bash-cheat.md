@@ -4,7 +4,7 @@ title: Bash Cheat Sheet (higher level)
 ---
 
 This is not the type of cheat sheet that contains the basics of shell programming or tables of commands and good practices. For these purposes I recommend [1](http://johnstowers.co.nz/pages/bash-cheat-sheet.html), [2](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf) and [3](https://gist.github.com/LeCoupa/122b12050f5fb267e75f). 
-Instead, here I have gathered some more complex commands that I have found useful working in the field of computer vision and machine learning. By making the commands more specific I don't mean to narrow their options but to give a fast insight into what the command can do - for others and as a reminder for me as well. For quick access to their actual manuals follow the respective links.
+Instead, here I have gathered some more complex commands that I have found useful working in the field of computer vision and machine learning. By making the commands more specific I don't mean to narrow their options but to give a fast insight into what the command can do. For quick access to their actual manuals follow the respective links.
 
 <font size="2">
 <style>
@@ -84,10 +84,6 @@ th, td {
   </tr>
 </table>  
 </font>
-
-
-
-continue text
 
 
 
