@@ -18,6 +18,13 @@ Instead, here I have gathered some more complex commands that I have found usefu
     <td><code>ffmpeg -i video.mp4 audio.mp3</code></td>
     <td>extract audio from video, <a href="http://ffmpeg.org/ffmpeg.html">here</a> is the manual</td>
   </tr>
+  <tr>
+    <td colspan="2"><code>ffmpeg -i video.mp4 audio.mp3</code></td>
+  </tr>
+  <tr>
+    <td><code>ffmpeg -i video.mp4 audio.mp3</code></td>
+    <td>extract audio from video, <a href="http://ffmpeg.org/ffmpeg.html">here</a> is the manual</td>
+  </tr>
 </table>  
 </font>
 
