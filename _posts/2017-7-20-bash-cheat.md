@@ -19,7 +19,7 @@ Instead, here I have gathered some more complex commands that I have found usefu
     <td>extract audiofile from video, <a href="http://ffmpeg.org/ffmpeg.html">here</a> is the manual</td>
   </tr>
   <tr>
-    <td colspan="2">and a one-liner to run this for all mp4s in a folder: <code>for file in *.mp4; do ffmpeg -i "$file" "/path/to/folder""${file/.mp4/.mp3}"; done</code></td>
+    <td colspan="2">and a one-liner to run this for all mp4s in a folder:<br><code>for file in *.mp4; do ffmpeg -i "$file" "/path/to/folder""${file/.mp4/.mp3}"; done</code></td>
   </tr>
   <tr>
     <td><code>ffmpeg -i video.mp4 audio.mp3</code></td>
