@@ -78,12 +78,16 @@ th, td {
     <td><code>ps -p$PPID</code></td>
     <td>find out what terminal you are <a href="https://ss64.com/bash/ps.html">running</a> on, default for Ubuntu Desktop is gnome-terminal</td>
   </tr>
+  <tr>
+    <td><code>PS1='\D{%F %T} \u@\h \W \$'</code></td>
+    <td><a href="https://bneijt.nl/blog/post/add-a-timestamp-to-your-bash-prompt/">add a timestamp to your Bash prompt</a>, PS1 is stored in .bashrc so source it to make it permanent, with this PS1 the prompt will look like: <code>2017-07-20 19:50:30 username@host ~ $</code></td>
+  </tr>
 </table>  
 </font>
 
 
 
-continue text27
+continue text laaaast
 
 
 
