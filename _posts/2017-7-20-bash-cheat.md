@@ -9,7 +9,7 @@ Instead, here I have gathered some more complex commands that I have found usefu
 <font size="2">
 <table>
   <tr>
-    <td><code>convert dragon.jpg -resize 50% half_dragon.jpg</code></td>
+    <td style="width:67%"><code>convert dragon.jpg -resize 50% half_dragon.jpg</code></td>
     <td>  decrease image size by half and [more](http://www.imagemagick.org/Usage/resize/)</td>
   </tr>
   <tr>
