@@ -7,10 +7,18 @@ This is not the type of cheat sheet that contains the basics of shell programmin
 Instead, here I have gathered some more complex commands that I have found useful working in the field of computer vision and machine learning.
 
 <font size="2">
-lala | lala
---- | --- 
-*Still* | `renders` 
-1 | 2 
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+</table>  
 </font>
 
 <!--
