@@ -36,7 +36,7 @@ th, td {
   </tr>
   <tr>
     <td><code>scp foo.py foo2.txt username@123.45.67.89:'home/username/folder</code></td>
-    <td><a href="https://linux.die.net/man/1/scp">scp</a></td>
+    <td><a href="https://ss64.com/bash/scp.html">scp</a></td>
   </tr>
   <tr>
     <td><code>nano foo.py</code></td>
@@ -44,17 +44,17 @@ th, td {
   </tr>
   <tr>
     <td><code>mount -t cifs -o username=myusername //123.45.67.89/folder/to/mount</code></td>
-    <td><a href="http://manpages.ubuntu.com/manpages/xenial/man8/mount.8.html">mount</a></td>
+    <td><a href="https://ss64.com/bash/mount.html">mount</a></td>
   </tr>
   <tr>
     <td><code>du -sh</code></td>
     <td><a href="https://linux.die.net/man/1/du">disk usage</a> s(ummary) h(uman readable)</td>
   </tr>
+  <!--
   <tr>
     <td><code>du -h --max-depth=1 /path/to/folder | sort -hk1</code></td>
     <td>lists all folders in /path/to/folder and their sizes in ascending order (<code>-rhk1</code> for descending order)</td>
   </tr>
-  <!--
   <tr>
     <td><code>cut -d: -f1 /etc/passwd</code></td>
     <td>lists all local users</td>
