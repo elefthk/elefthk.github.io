@@ -9,7 +9,7 @@ Instead, here I have gathered some more complex commands that I have found usefu
 <font size="2">
 <table>
   <tr>
-    <td>Company</td>
+    <td><code>convert dragon.jpg -resize 50% half_dragon.jpg</code></td>
     <td>Contact</td>
   </tr>
   <tr>
