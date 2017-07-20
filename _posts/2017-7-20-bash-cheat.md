@@ -80,14 +80,14 @@ th, td {
   </tr>
   <tr>
     <td><code>a1</code></td>
-    <td><a href="https://bneijt.nl/blog/post/add-a-timestamp-to-your-bash-prompt/">add a timestamp to your Bash prompt</a>a2</td>
+    <td><a href="https://bneijt.nl/blog/post/add-a-timestamp-to-your-bash-prompt/">add a timestamp to your Bash prompt</a>, PS1 is stored in .bashrc so source it to make it permanent, this PS1 gives the following prompt: <code>2017-07-20 19:50:30 username@host ~ $</code></td>
   </tr>
 </table>  
 </font>
 
 
 
-continue text laaaast1
+continue text laaaast2
 
 
 
