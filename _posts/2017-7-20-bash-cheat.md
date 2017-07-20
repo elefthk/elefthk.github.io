@@ -7,12 +7,12 @@ This is not the type of cheat sheet that contains the basics of shell programmin
 Instead, here I have gathered some more complex commands that I have found useful working in the field of computer vision and machine learning. By making the commands more specific I don't mean to narrow their options but to give a fast insight into what the command can do - for others and as a reminder for me as well. For quick access to their actual manuals follow the respective links.
 
 <font size="2">
-<table>
+<table cellpadding="10">
   <col width="67%">
   <col width="33%">
   <tr>
     <td><code>convert dragon.jpg -resize 50% half_dragon.jpg</code></td>
-    <td>  decrease image size by half and <a href="http://www.imagemagick.org/Usage/resize/">more</a><br></td>
+    <td>  decrease image size by half and <a href="http://www.imagemagick.org/Usage/resize/">more</a></td>
   </tr>
   <tr>
     <td><code>ffmpeg -i video.mp4 audio.mp3</code></td>
