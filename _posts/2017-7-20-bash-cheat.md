@@ -62,12 +62,16 @@ th, td {
     <td><code>lshw -short</code></td>
     <td><a href="http://manpages.ubuntu.com/manpages/xenial/man1/lshw.1.html">list hardware info</a> (CPU, RAM, GPU, Ethernet), to get only CPU info run <code>lscpu</code></td>
   </tr>
+  <tr>
+    <td><code>dmidecode -t bios</code></td>
+    <td>get info on <a href="https://linux.die.net/man/8/dmidecode">bios</a>, works also for system, memory, processor</td>
+  </tr>
 </table>  
 </font>
 
 
 
-continue text23
+continue text24
 
 
 
