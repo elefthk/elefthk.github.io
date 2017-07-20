@@ -67,8 +67,8 @@ th, td {
     <td>get <a href="https://linux.die.net/man/8/dmidecode">info on bios</a>, works also for system, memory, processor</td>
   </tr>
   <tr>
-    <td><code>grep 'ssh' /var/log/auth.log check ssh log</code></td>
-    <td>general authentication log is stored in /var/log/auth.log and older log is in auth.log1</td>
+    <td><code>grep 'ssh' /var/log/auth.log </code></td>
+    <td>check ssh log, general authentication log is stored in /var/log/auth.log and older log is in auth.log1</td>
   </tr>
   <tr>
     <td><code>tr : '\n' <<<$PATH </code></td>
