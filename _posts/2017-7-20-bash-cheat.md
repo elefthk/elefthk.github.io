@@ -50,6 +50,10 @@ th, td {
     <td><code>du -sh</code></td>
     <td><a href="https://linux.die.net/man/1/du">disk usage</a> s(ummary) h(uman readable)</td>
   </tr>
+  <tr>
+    <td><code>du -h --max-depth=1 /path/to/folder | sort -hk1</code></td>
+    <td>lists all folders in /path/to/folder and their sizes in ascending order (<code>-rhk1</code> for descending order)</td>
+  </tr>
   
 </table>  
 </font>
