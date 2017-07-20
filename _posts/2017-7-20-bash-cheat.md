@@ -10,7 +10,7 @@ Instead, here I have gathered some more complex commands that I have found usefu
 <font size="2">
 <style>
 table, th, td {
-    border: 5px solid black;
+    border: 2px solid grey;
     border-collapse: collapse;
 }
 th, td {
@@ -32,8 +32,8 @@ th, td {
     <td colspan="2">and a one-liner to run this for all mp4s in a folder:<br><code>for file in *.mp4; do ffmpeg -i "$file" "/path/to/folder""${file/.mp4/.mp3}"; done</code></td>
   </tr>
   <tr>
-    <td><code>ffmpeg -i video.mp4 audio.mp3</code></td>
-    <td>extract audio from video, <a href="http://ffmpeg.org/ffmpeg.html">here</a> is the manual</td>
+    <td><code>ssh -l elefthk 123.45.67.89 -p 22</code></td>
+    <td>and the <a href="https://linux.die.net/man/1/ssh">ssh</a> man page</td>
   </tr>
 </table>  
 </font>
