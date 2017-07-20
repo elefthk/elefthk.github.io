@@ -52,15 +52,15 @@ th, td {
   </tr>
   <tr>
     <td><code>du -h --max-depth=1 /path/to/folder | sort -hk1</code></td>
-    <td>lists all folders in /path/to/folder and their sizes in ascending order (<code>-rhk1</code> for descending order)</td>
+    <td>list all folders in /path/to/folder and their sizes in ascending order (<code>-rhk1</code> for descending order)</td>
   </tr>
   <tr>
     <td><code>cut -d: -f1 /etc/passwd</code></td>
-    <td>lists all local users</td>
+    <td>list all local users</td>
   </tr>
   <tr>
     <td><code>lshw -short</code></td>
-    <td><a href="http://manpages.ubuntu.com/manpages/xenial/man1/lshw.1.html">list hardware info</a> (CPU, RAM, GPU, Ethernet), to get only CPU info run <code>lscpu</code></td>
+    <td><a href="http://manpages.ubuntu.com/manpages/xenial/man1/lshw.1.html">get hardware info</a> (CPU, RAM, GPU, Ethernet), to get only CPU info run <code>lscpu</code></td>
   </tr>
   <tr>
     <td><code>dmidecode -t bios</code></td>
