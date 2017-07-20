@@ -54,6 +54,34 @@ th, td {
     <td><code>du -h --max-depth=1 /path/to/folder | sort -hk1</code></td>
     <td>lists all folders in /path/to/folder and their sizes in ascending order (<code>-rhk1</code> for descending order)</td>
   </tr>
+  <tr>
+    <td><code>cut -d: -f1 /etc/passwd</code></td>
+    <td>lists all local users</td>
+  </tr>
+  <tr>
+    <td><code>lshw -short</code></td>
+    <td><a href="http://manpages.ubuntu.com/manpages/xenial/man1/lshw.1.html">list hardware info</a> (CPU, RAM, GPU, Ethernet), to get only CPU info run <code>lscpu</code></td>
+  </tr>
+  <tr>
+    <td><code>dmidecode -t bios</code></td>
+    <td>get info on <a href="https://linux.die.net/man/8/dmidecode">bios</a>, works also for system, memory, processor</td>
+  </tr>
+  <tr>
+    <td><code>grep 'ssh' /var/log/auth.log check ssh log</code></td>
+    <td>general authentication log is stored in /var/log/auth.log and older log is in auth.log1</td>
+  </tr>
+  <tr>
+    <td><code>tr : '\n' <<<$PATH </code></td>
+    <td>pretty <a href="https://ss64.com/bash/tr.html">format</a> of $PATH var (separate per line)</td>
+  </tr>
+  <tr>
+    <td><code>ps -p$PPID</code></td>
+    <td>find out what terminal you are <a href="https://ss64.com/bash/ps.html">running</a> on, default for Ubuntu Desktop is gnome-terminal</td>
+  </tr>
+  <tr>
+    <td><code>PS1='\D{%F %T} \u@\h \W \$'</code></td>
+    <td><a href="https://bneijt.nl/blog/post/add-a-timestamp-to-your-bash-prompt/">add a timestamp to your Bash prompt</a>, PS1 is stored in .bashrc so source it to make it permanent, with this PS1 the prompt will look like: <code>2017-07-20 19:50:30 username@host ~ $</code></td>
+  </tr>
   
 </table>  
 </font>
