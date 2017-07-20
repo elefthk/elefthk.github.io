@@ -54,7 +54,10 @@ th, td {
     <td><code>du -h --max-depth=1 /path/to/folder | sort -hk1</code></td>
     <td>lists all folders in /path/to/folder and their sizes in ascending order (<code>-rhk1</code> for descending order)</td>
   </tr>
-  
+  <tr>
+    <td><code>cut -d: -f1 /etc/passwd</code></td>
+    <td>lists all local users</td>
+  </tr>
 </table>  
 </font>
 
