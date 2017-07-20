@@ -74,12 +74,16 @@ th, td {
     <td><code>tr : '\n' <<<$PATH </code></td>
     <td>pretty <a href="https://ss64.com/bash/tr.html">format</a> of $PATH var (separate per line)</td>
   </tr>
+  <tr>
+    <td><code>ps -p$PPID</code></td>
+    <td>find out what terminal you are <a href="https://ss64.com/bash/ps.html">running</a> on, default for Ubuntu Desktop is gnome-terminal</td>
+  </tr>
 </table>  
 </font>
 
 
 
-continue text26
+continue text27
 
 
 
