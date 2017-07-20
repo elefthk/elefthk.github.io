@@ -15,8 +15,8 @@ Instead, here I have gathered some more complex commands that I have found usefu
     <td>  decrease image size by half and <a href="http://www.imagemagick.org/Usage/resize/">more</a></td>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
+    <td><code>ffmpeg -i video.mp4 audio.mp3</code></td>
+    <td>extract audio from video, <a href="http://ffmpeg.org/ffmpeg.html">here</a> is the manual</td>
   </tr>
 </table>  
 </font>
