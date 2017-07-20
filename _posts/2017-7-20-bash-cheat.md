@@ -32,16 +32,49 @@ th, td {
     <td colspan="2">and a one-liner to run this for all mp4s in a folder:<br><code>for file in *.mp4; do ffmpeg -i "$file" "/path/to/folder""${file/.mp4/.mp3}"; done</code></td>
   </tr>
   <tr>
-    <td><code>ssh -l elefthk 123.45.67.89 -p 22</code></td>
+    <td><code>ssh -l username 123.45.67.89 -p 22</code></td>
     <td>and the <a href="https://linux.die.net/man/1/ssh">ssh</a> man page</td>
+  </tr>
+  <tr>
+    <td><code>scp foo.py foo2.txt username@123.45.67.89:'home/username/folder</code></td>
+    <td><a href="https://linux.die.net/man/1/scp">scp</a></td>
+  </tr>
+  <tr>
+    <td><code>nano foo.py</code></td>
+    <td>simple text editor to use when in a server (for lack of emacs or vim), to save changes do C-x</td>
+  </tr>
+  <tr>
+    <td><code>mount -t cifs -o username=myusername //123.45.67.89/folder/to/mount</code></td>
+    <td><a href="http://manpages.ubuntu.com/manpages/xenial/man8/mount.8.html">scp</a></td>
+  </tr>
+  <tr>
+    <td><code>du -sh</code></td>
+    <td><a href="https://linux.die.net/man/1/du">disk usage</a> s(ummary) (h)uman readable</td>
+  </tr>
+  <tr>
+    <td><code>scp foo.py foo2.txt username@123.45.67.89:'home/username/folder</code></td>
+    <td><a href="https://linux.die.net/man/1/scp">scp</a></td>
+  </tr>
+  <tr>
+    <td><code>scp foo.py foo2.txt username@123.45.67.89:'home/username/folder</code></td>
+    <td><a href="https://linux.die.net/man/1/scp">scp</a></td>
+  </tr>
+  <tr>
+    <td><code>scp foo.py foo2.txt username@123.45.67.89:'home/username/folder</code></td>
+    <td><a href="https://linux.die.net/man/1/scp">scp</a></td>
+  </tr>
+  <tr>
+    <td><code>scp foo.py foo2.txt username@123.45.67.89:'home/username/folder</code></td>
+    <td><a href="https://linux.die.net/man/1/scp">scp</a></td>
+  </tr>
+  <tr>
+    <td><code>scp foo.py foo2.txt username@123.45.67.89:'home/username/folder</code></td>
+    <td><a href="https://linux.die.net/man/1/scp">scp</a></td>
   </tr>
 </table>  
 </font>
 
-<!--
-<samp>convert dragon.jpg -resize 50% half_dragon.jpg</samp> | decrease image size by half and [more](http://www.imagemagick.org/Usage/resize/)
-<samp>ffmpeg -i video.mp4 audio.mp3</samp> | extract audio from video, [here](http://ffmpeg.org/ffmpeg.html) is the manual
--->
+
 
 continue text
 
