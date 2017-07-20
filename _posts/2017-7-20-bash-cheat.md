@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bash Cheat Sheet (higher level) 
+title: Bash Cheat Sheet
 ---
 
 This is not the type of cheat sheet that contains the basics of shell programming or tables of commands and good practices. For these purposes I recommend [1](http://johnstowers.co.nz/pages/bash-cheat-sheet.html), [2](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf) and [3](https://gist.github.com/LeCoupa/122b12050f5fb267e75f). 
