@@ -70,12 +70,16 @@ th, td {
     <td><code>grep 'ssh' /var/log/auth.log check ssh log</code></td>
     <td>general authentication log is stored in /var/log/auth.log and older log is in auth.log1</td>
   </tr>
+  <tr>
+    <td><code>tr : '\n' <<<$PATH </code></td>
+    <td>pretty <a href="https://ss64.com/bash/tr.html">format</a> of $PATH var (separate per line)</td>
+  </tr>
 </table>  
 </font>
 
 
 
-continue text25
+continue text26
 
 
 
