@@ -58,12 +58,16 @@ th, td {
     <td><code>cut -d: -f1 /etc/passwd</code></td>
     <td>lists all local users</td>
   </tr>
+  <tr>
+    <td><code>lshw -short</code></td>
+    <td><a href="http://manpages.ubuntu.com/manpages/xenial/man1/lshw.1.html">list hardware info</a> (CPU, RAM, GPU, Ethernet), to get only CPU info run <code>lscpu</code></td>
+  </tr>
 </table>  
 </font>
 
 
 
-continue text22
+continue text23
 
 
 
