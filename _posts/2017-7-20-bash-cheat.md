@@ -71,8 +71,16 @@ th, td {
     <td>check ssh log, general authentication log is stored in /var/log/auth.log and older log is in auth.log1</td>
   </tr>
   <tr>
+    <td><code>grep " install " /var/log/dpkg.log </code></td>
+    <td>print packages recently installed through apt-get, for all intalled packages do <code>gunzip -c `ls -tr /var/log/dpkg.log.*.gz` | grep " install "</code></td>
+  </tr>
+  <tr>
     <td><code>tr : '\n' <<<$PATH </code></td>
     <td>pretty <a href="https://ss64.com/bash/tr.html">format</a> of $PATH var (separate per line)</td>
+  </tr>
+  <tr>
+    <td><code>find -name "* *" -type f | rename 's/ /_/g' </code></td>
+    <td>replace spaces with underscores in file names, for folder names do <code>-type d</code></td>
   </tr>
   <tr>
     <td><code>ps -p$PPID</code></td>
