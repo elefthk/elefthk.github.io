@@ -4,11 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+This is a work in progress
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+ /\___/\
+(= ^.^ =)
+ (") (")_/
 
 ### Contact me
 
