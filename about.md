@@ -8,9 +8,11 @@ This is a work in progress
 
 ### More Information
 
+```
  /\___/\
 (= ^.^ =)
  (") (")_/
+```
 
 ### Contact me
 
