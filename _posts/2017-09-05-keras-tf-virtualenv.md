@@ -4,7 +4,7 @@ title: Keras-TF virtual environment
 ---
 
 <figure><img src="/images/keras-logo.png" alt="keras_logo" style="width: 70px;"/></figure>
-When Keras 2.0 came out, I didn't want to upgrade the whole system because my main project at the time was in Keras 1.2 and incompatible with the new version. So I got in the habit of creating a new Python [virtenv](https://virtualenv.pypa.io/en/stable/userguide/) for every new project and wrote a small script to do this fast. Since it has recently proven useful to some of my colleagues, I am also sharing it here.
+When Keras 2.0 came out, I didn't want to upgrade the whole system because my main project at the time was in Keras 1.2 and incompatible with the new version. So I got in the habit of creating a new Python [virtualenv](https://virtualenv.pypa.io/en/stable/userguide/) for every new project and wrote a small script to do this fast. Since it has recently proven useful to some of my colleagues, I am also sharing it here.
 
 ```bash
 #!/bin/bash
