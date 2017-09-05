@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Create Keras-TF virtual environment
+title: Keras-TF virtual environment
 ---
 
 <figure><img src="/images/keras-logo.png" alt="keras_logo" style="width: 70px;"/></figure>
