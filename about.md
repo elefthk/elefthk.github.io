@@ -7,6 +7,7 @@ permalink: /about/
 This is a work in progress
 
 ### More Information
+This blog is a fork of the [Jekyll-Now](https://github.com/barryclark/jekyll-now) template.
 
 ```
  /\___/\
