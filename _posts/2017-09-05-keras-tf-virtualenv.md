@@ -23,7 +23,7 @@ source $(basename $virtenvpath)/bin/activate
 printf "\n and now upgrading\n"
 pip install --upgrade pip
 
-printf "\n and now installing numpy, scipy, matplotlib, keras and tensorflow (and their dependencies) and h5py (for storing model weights)"
+printf "\n and now installing numpy, scipy, matplotlib, keras, tensorflow and h5py (for storing model weights) and their requirements"
 pip install scipy matplotlib keras tensorflow-gpu Pillow h5py
 pip list
 ```
