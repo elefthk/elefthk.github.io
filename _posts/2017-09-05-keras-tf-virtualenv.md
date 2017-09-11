@@ -23,13 +23,13 @@ source $(basename $virtenvpath)/bin/activate
 printf "\n and now upgrading\n"
 pip install --upgrade pip
 
-printf "\n and now installing numpy, scipy, matplotlib, keras and tensorflow (and their dependencies)"
-pip install scipy matplotlib keras tensorflow-gpu Pillow
+printf "\n and now installing numpy, scipy, matplotlib, keras and tensorflow (and their dependencies) and h5py (for storing model weights)"
+pip install scipy matplotlib keras tensorflow-gpu Pillow h5py
 pip list
 ```
 
 Notes:
-1. Pillow is needed for scipy to work properly and for some reason it is not installed as a dependency with scipy, as numpy does for example.
+1. Pillow is needed for scipy to work properly and for some reason it is a requirement for scipy, as numpy for example.
 2. If you don't have keras and tensorflow already installed in your computer you must then make sure that the ~/.keras/keras.json file exists and that "image_dim_ordering" is set to "tf" or "channels_last" and "backend" is set to "tensorflow". If you have another version of Keras installed that is older than 2.0, then set "image_dim_ordering" to "tf". This works with both versions while "channels_last" and "channels_first" only work with Keras 2.
 
 Here is an example of the ~/.keras/keras.json file for reference:
